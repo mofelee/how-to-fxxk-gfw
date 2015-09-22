@@ -96,7 +96,12 @@ https://github.com/shadowsocks/shadowsocks/tree/7c08101ce8a673fafb22477e8ad720aa
 官方repo的wiki已经不能访问，这是fork别人保存下来的wiki，手动安装或者优化可以参考
 https://github.com/MofeLee/shadowsocks-wiki
 
-## 使用流程
+## 使用
+
+### OSX下连接远程服务器
+
+OSX客户端地址：
+https://github.com/shadowsocks/shadowsocks-iOS/releases
 
 ### 浏览器使用
 
@@ -151,9 +156,10 @@ http://www.serverspeeder.com/
 
 ## 其他翻墙方法总结
 
-- DNS翻墙：最简单，推荐电脑没有重要资料，或者iPad或者iPhone临时翻墙用，有比较严重的安全隐患。
-- 翻墙浏览器：也简单，不过安全隐患也很严重。
-- 自由门(极其不推荐)：上古时期的翻墙方法，有些安装包被人绑了木马，并且只能在windows下使用。
-- vpn翻墙：购买或搭建vpn服务器，有可能被gfw屏蔽流量
+- DNS翻墙：最简单，推荐电脑没有重要资料，或者iPad或者iPhone临时翻墙用，有比较严重的安全隐患；
+- 翻墙浏览器：也简单，不过安全隐患也很严重，比如百度浏览器（没用过，用windows的可以尝试下）；
+- 自由门(极其不推荐)：上古时期的翻墙方法，有些安装包被人绑了木马，并且只能在windows下使用；
+- vpn翻墙：购买或搭建vpn服务器，有可能被gfw屏蔽流量；
+- Lantern：据说挺不错的翻墙工具，只能用来浏览网页。
 
 ## 如有疑问可以发issue，有必要讲的更清楚的信息我会及时更新到repo上~点右上角的watch可以收到更新~
