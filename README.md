@@ -55,7 +55,7 @@
 
 之前有考虑过使用香港的vps，速度快，开通方便，但是宽带给的低，高宽带的服务器价格贵的不适合翻墙服务器
 
-个人认为好用又便宜的vps逃不出香港，台湾，新加坡或者韩国日本（我会告诉大家我连泰国、越南的vps都用过吗？好吧，当然会。。）
+个人认为好用又便宜的vps逃不出香港，台湾，新加坡或者韩国日本（泰国、越南的vps目前没有试到比较快的）
 
 大家如果找到了好用又便宜的vps可以直接发个pr，看到了我会及时更新的，
 
@@ -100,11 +100,13 @@ https://github.com/MofeLee/shadowsocks-wiki
 
 ### 浏览器使用
 
-SwitchyOmega
+SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心安装，
+
+其他浏览器也有相应工具，不过我目前只用Chrome。
 
 ### 命令行使用
 
-[proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络。
+#### linux或mac >> [proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络。
 
 安装方法：
 
@@ -120,10 +122,10 @@ SwitchyOmega
    # if you dont install, you can use proxychains from the build directory. like this:
    ./proxychains4 -f src/proxychains.conf telnet google.com 80
   ```
-3. 配置代理 详细配置文件在[这个文件里](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf)
+3. 配置代理 详细配置文件在这里>>[proxychains.conf](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf),需要拷贝到/etc目录下。
 
 
-#### alias 一些常用命令
+alias 一些常用命令
 ```bash
 # 命令行下使用http代理
 hp='export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123'
@@ -137,6 +139,9 @@ pz='echo '\''in shadow'\'' && in=in_shadow proxychains4 -q zsh && echo '\''out s
 x='proxychains4 -q '
 xni='proxychains4 -q npm install '
 ```
+
+#### windows >> [proxifier](https://www.proxifier.com/)
+具体流程可以搜索。
 
 ## 加速优化
 http://www.serverspeeder.com/
