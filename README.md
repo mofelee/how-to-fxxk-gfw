@@ -88,7 +88,7 @@ chmod +x shadowsocks-libev.sh
 ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 ```
 
-#### 手动安装
+#### 手动安装（喜欢折腾可以参考下面的链接）
 
 shadowsocks最后一个release还可以访问
 https://github.com/shadowsocks/shadowsocks/tree/7c08101ce8a673fafb22477e8ad720aa57114a1f
@@ -144,6 +144,9 @@ xni='proxychains4 -q npm install '
 具体流程可以搜索。
 
 ## 加速优化
+
+锐速提供免费加速20M宽带，实测访问youtube速度的确会快很多
+
 http://www.serverspeeder.com/
 
 ## 其他翻墙方法总结
