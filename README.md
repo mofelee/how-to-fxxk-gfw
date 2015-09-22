@@ -70,8 +70,23 @@ python版和libev版区别
 安装脚本地址（需要翻墙）
 
 [Shadowsocks Python版一键安装脚本（CentOS，Debian，Ubuntu）](https://teddysun.com/342.html)
+
 [CentOS 下 shadowsocks-libev 一键安装脚本](https://teddysun.com/357.html)
+
 [Debian 下 shadowsocks-libev 一键安装脚本](https://teddysun.com/358.html)
+
+python版安装脚本
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+chmod +x shadowsocks.sh
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+```
+Centos下libev版安装脚本
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
+chmod +x shadowsocks-libev.sh
+./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
+```
 
 #### 手动安装
 
