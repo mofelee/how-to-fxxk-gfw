@@ -45,6 +45,8 @@
     - 宽带给的特别足
     - 可以设置启动脚本，一键搭建翻墙服务器
   - 缺点：不管你信不信，反正我是没有买到好用的vps，当年开了几十台位于日本服务器，一台一台测试速度，最后还是放弃了。
+  
+之前有考虑过使用香港的vps，速度快，开通方便，但是宽带给的低，高宽带的服务器价格贵的不适合翻墙服务器
 
 ## 部署流程
 
@@ -54,6 +56,9 @@ shadowsocks一键安装脚本（推荐）
 
 shadowsocks最后一个release还可以访问
 https://github.com/shadowsocks/shadowsocks/tree/7c08101ce8a673fafb22477e8ad720aa57114a1f
+
+官方repo的wiki已经不能访问，这是fork别人保存下来的wiki，手动安装或者优化可以参考
+https://github.com/MofeLee/shadowsocks-wiki
 
 ## 使用流程
 
