@@ -95,17 +95,17 @@ SwitchyOmega
 
 1. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
 2. 编译安装
-```bash
- # needs a working C compiler, preferably gcc
-  ./configure --prefix=/usr --sysconfdir=/etc
-  make
-  [optional] sudo make install
-  [optional] sudo make install-config (installs proxychains.conf)
-
- # if you dont install, you can use proxychains from the build directory. like this:
- ./proxychains4 -f src/proxychains.conf telnet google.com 80
-```
-
+  ```bash
+   # needs a working C compiler, preferably gcc
+    ./configure --prefix=/usr --sysconfdir=/etc
+    make
+    [optional] sudo make install
+    [optional] sudo make install-config (installs proxychains.conf)
+  
+   # if you dont install, you can use proxychains from the build directory. like this:
+   ./proxychains4 -f src/proxychains.conf telnet google.com 80
+  ```
+3. 配置代理 详细配置文件在[这个文件里](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf)
 
 
 #### alias 一些常用命令
