@@ -141,7 +141,7 @@ xni='proxychains4 -q npm install '
 ```
 
 #### windows >> [proxifier](https://www.proxifier.com/)
-具体流程可以搜索。
+具体使用可以搜索google或者baidu。
 
 ## 加速优化
 
