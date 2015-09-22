@@ -134,7 +134,7 @@ nhp='unset http_proxy https_proxy'
 # 命令行下强制使用代理服务器
 pxy=proxychains4
 #   完全代理zsh
-pz='echo '\''in shadow'\'' && in=in_shadow proxychains4 -q zsh && echo '\''out shadow'\'
+pz='proxychains4 -q zsh'
 #   代理单个进程
 x='proxychains4 -q '
 xni='proxychains4 -q npm install '
