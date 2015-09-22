@@ -89,7 +89,23 @@ SwitchyOmega
 
 ### 命令行使用
 
-[proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络
+[proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络。
+
+安装方法：
+
+1. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
+2. 编译安装
+```bash
+ # needs a working C compiler, preferably gcc
+  ./configure --prefix=/usr --sysconfdir=/etc
+  make
+  [optional] sudo make install
+  [optional] sudo make install-config (installs proxychains.conf)
+
+ # if you dont install, you can use proxychains from the build directory. like this:
+ ./proxychains4 -f src/proxychains.conf telnet google.com 80
+```
+
 
 
 #### alias 一些常用命令
