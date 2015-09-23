@@ -15,7 +15,7 @@
     - 给shadowsocks加外挂翻墙比较麻烦（需要手动升级系统内核，我已经不想再搞第二次了，后面会介绍）
     - 管理网站用extjs做的，不知道为啥我这打开卡的要死。
   - 推荐像我这种离开了墙没法活的人使用。。。
-- [vultr](https://userportal.hicloud.hinet.net/cloud/)
+- [vultr](https://www.vultr.com/)
   - 优点：
     - 日本服务器翻墙速度也不错
     - 价钱便宜（日本服务器每个月400G流量5美元，换算成人民币30元一个月）
