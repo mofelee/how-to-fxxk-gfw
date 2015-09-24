@@ -162,6 +162,7 @@ mac下brew安装需要拷贝到`/usr/local/etc`目录下。
   ```bash 
   brew install polipo
   ```
+2. 修改`/usr/local/opt/polipo/homebrew.mxcl.polipo.plist`文件，添加一些启动参数，具体参照>> [homebrew.mxcl.polipo.plist](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/homebrew.mxcl.polipo.plist)
 2. 配置开机自动启动
 
   ```bash
