@@ -96,22 +96,33 @@ https://github.com/MofeLee/shadowsocks-wiki
 
 ## 使用
 
-### OSX下连接远程服务器
+#### OSX下的shadowsocks客户端
 
 OSX客户端地址：
 https://github.com/shadowsocks/shadowsocks-iOS/releases
 
-### 浏览器使用
+#### 浏览器使用
 
 SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心安装，
 
 其他浏览器也有相应工具，不过我目前只用Chrome。
 
-### 命令行使用
+#### linux或mac终端下使用 >> [proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络。
 
-#### linux或mac >> [proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络。
+homebrew安装：
 
-安装方法：
+1. 安装homebrew
+
+    ```bash
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    ```
+2. 安装proxychains-ng
+
+    ```bash
+    brew install proxychains-ng
+    ```
+
+编译安装：
 
 1. 安装xcode（请直接从App Store安装）,安装完成后打开命令行输入`sudo xcodebuild -license`（用来同意xcode的license）。
 2. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
@@ -126,7 +137,11 @@ SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心�
    # if you dont install, you can use proxychains from the build directory. like this:
    ./proxychains4 -f src/proxychains.conf telnet google.com 80
   ```
-4. 配置代理 详细配置文件在这里>>[proxychains.conf](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf),需要拷贝到/etc目录下。
+
+
+配置代理： 
+
+详细配置文件在这里>>[proxychains.conf](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf),需要拷贝到/etc目录下。
 
 
 alias 一些常用命令
@@ -144,7 +159,7 @@ x='proxychains4 -q '
 xni='proxychains4 -q npm install '
 ```
 
-#### windows >> [proxifier](https://www.proxifier.com/)
+#### windows下命令行下使用 >> [proxifier](https://www.proxifier.com/)
 具体使用可以搜索google或者baidu。
 
 ## 加速优化
