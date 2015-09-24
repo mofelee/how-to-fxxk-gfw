@@ -103,7 +103,14 @@ https://github.com/shadowsocks/shadowsocks-iOS/releases
 
 #### 浏览器使用
 
-SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心安装，
+Chrome下使用SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心安装，
+
+**代理配置**：
+
+1. 打开SwitchOmega选项
+2. 打开导入导出界面，在线恢复地址设置为：
+ 
+`https://raw.githubusercontent.com/MofeLee/how-to-fxxk-gfw/master/OmegaBackup-mofe.bak?token=AE1aYvbXtOiP2Zgjm5jfOStwEIatkHyJks5WDOAQwA%3D%3D`
 
 其他浏览器也有相应工具，不过我目前只用Chrome。
 
