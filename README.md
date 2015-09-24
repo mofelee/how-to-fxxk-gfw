@@ -113,8 +113,9 @@ SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心�
 
 安装方法：
 
-1. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
-2. 编译安装(需要安装xcode)
+1. 安装xcode（请直接从App Store安装）,安装完成后打开命令行输入`sudo xcodebuild -license`（用来同意xcode的license）。
+2. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
+3. 编译安装(需要安装xcode)
   ```bash
    # needs a working C compiler, preferably gcc
     ./configure --prefix=/usr --sysconfdir=/etc
@@ -125,7 +126,7 @@ SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心�
    # if you dont install, you can use proxychains from the build directory. like this:
    ./proxychains4 -f src/proxychains.conf telnet google.com 80
   ```
-3. 配置代理 详细配置文件在这里>>[proxychains.conf](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf),需要拷贝到/etc目录下。
+4. 配置代理 详细配置文件在这里>>[proxychains.conf](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf),需要拷贝到/etc目录下。
 
 
 alias 一些常用命令
