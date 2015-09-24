@@ -114,7 +114,7 @@ SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心�
 安装方法：
 
 1. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
-2. 编译安装
+2. 编译安装(需要安装xcode)
   ```bash
    # needs a working C compiler, preferably gcc
     ./configure --prefix=/usr --sysconfdir=/etc
