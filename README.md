@@ -109,7 +109,7 @@ SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心�
 
 #### linux或mac终端下使用 >> [proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络。
 
-homebrew安装：
+homebrew安装（推荐mac下使用）：
 
 1. 安装homebrew
 
@@ -122,7 +122,7 @@ homebrew安装：
     brew install proxychains-ng
     ```
 
-编译安装：
+编译安装（推荐linux系统下使用）：
 
 1. 安装xcode（请直接从App Store安装）,安装完成后打开命令行输入`sudo xcodebuild -license`（用来同意xcode的license）。
 2. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
