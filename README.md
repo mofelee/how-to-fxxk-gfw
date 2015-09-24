@@ -109,7 +109,7 @@ SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心�
 
 #### linux或mac终端下使用 >> [proxychains4](https://github.com/rofl0r/proxychains-ng)，强制让进程使用代理服务器访问网络。
 
-homebrew安装（推荐mac下使用）：
+**homebrew安装**（推荐mac下使用）：
 
 1. 安装homebrew
 
@@ -122,7 +122,7 @@ homebrew安装（推荐mac下使用）：
     brew install proxychains-ng
     ```
 
-编译安装（推荐linux系统下使用）：
+**编译安装**（推荐linux系统下使用）：
 
 1. 安装xcode（请直接从App Store安装）,安装完成后打开命令行输入`sudo xcodebuild -license`（用来同意xcode的license）。
 2. 下载安装包https://github.com/rofl0r/proxychains-ng/archive/master.zip
@@ -139,12 +139,23 @@ homebrew安装（推荐mac下使用）：
   ```
 
 
-配置代理： 
+**配置代理**： 
 
-详细配置文件在这里>>[proxychains.conf](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf),需要拷贝到/etc目录下。
+详细配置文件在这里>>[proxychains.conf](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/proxychains.conf)
 
+linux下编译安装需要拷贝到`/etc`目录下；
 
-alias 一些常用命令
+mac下brew安装需要拷贝到`/usr/local/etc`目录下。
+
+最关键的配置是把`[ProxyList]`下代理列表改为
+
+`socks5 127.0.0.1 1080`
+
+测试是否代理成功
+
+`proxychains4 curl google.com`
+
+**alias 一些常用命令**
 ```bash
 # 命令行下使用http代理
 hp='export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123'
