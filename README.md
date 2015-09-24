@@ -197,6 +197,7 @@ mac下brew安装需要拷贝到`/usr/local/etc`目录下。
   launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
   ```
 5. 测试代理是否成功
+
   ```bash
   export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123
   curl google.com
