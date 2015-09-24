@@ -158,16 +158,16 @@ mac下brew安装需要拷贝到`/usr/local/etc`目录下。
 **alias 一些常用命令**
 ```bash
 # 命令行下使用http代理
-hp='export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123'
-nhp='unset http_proxy https_proxy'
+alias hp='export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123'
+alias nhp='unset http_proxy https_proxy'
 
 # 命令行下强制使用代理服务器
-pxy=proxychains4
+alias pxy=proxychains4
 #   完全代理zsh
-pz='proxychains4 -q zsh'
+alias pz='proxychains4 -q zsh'
 #   代理单个进程
-x='proxychains4 -q '
-xni='proxychains4 -q npm install '
+alias x='proxychains4 -q '
+alias xni='proxychains4 -q npm install '
 ```
 
 #### windows下命令行下使用 >> [proxifier](https://www.proxifier.com/)
