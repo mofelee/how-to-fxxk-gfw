@@ -210,6 +210,10 @@ alias x='proxychains4 -q '
 alias xni='proxychains4 -q npm install '
 ```
 
+**查看使用的是哪台服务器的网络**
+
+```curl ifconfig.co```
+
 #### windows下命令行下使用 >> [proxifier](https://www.proxifier.com/)
 具体使用可以搜索google或者baidu。
 
