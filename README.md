@@ -86,6 +86,13 @@ chmod +x shadowsocks-libev.sh
 ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 ```
 
+Debian下libev版安装脚本
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh
+chmod +x shadowsocks-libev-debian.sh
+./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
+```
+
 #### 手动安装（喜欢折腾可以参考下面的链接）
 
 shadowsocks最后一个release还可以访问
