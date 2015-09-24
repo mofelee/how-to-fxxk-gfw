@@ -15,8 +15,8 @@
 3. [如何使用](#使用)
   1. [Macbook上使用客户端连接远程服务器](#osx下的shadowsocks客户端)
   2. [浏览器翻墙](#浏览器使用)
-  3. [linux或mac命令行下使用](#linux或mac终端下使用)
-  4. [windows下命令行下使用](#windows下命令行下使用)
+  3. [linux或mac命令行下使用](#linux或mac终端下使用--proxychains4强制让进程使用代理服务器访问网络)
+  4. [windows下命令行下使用](#windows下命令行下使用--proxifier)
 4. [代理服务器的加速优化](#加速优化)
 5. [其他翻墙方法总结](#其他翻墙方法总结)
 
