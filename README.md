@@ -155,6 +155,25 @@ mac下brew安装需要拷贝到`/usr/local/etc`目录下。
 
 `proxychains4 curl google.com`
 
+**映射为http代理**
+
+1. 安装polipo
+
+  ```bash 
+  brew install polipo
+  ```
+2. 配置开机自动启动
+
+  ```bash
+  ln -sfv /usr/local/opt/polipo/*.plist ~/Library/LaunchAgents
+  ```
+3. 立即启动polipo
+
+  ```bash
+  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
+  ```
+
+
 **alias 一些常用命令**
 ```bash
 # 命令行下使用http代理
