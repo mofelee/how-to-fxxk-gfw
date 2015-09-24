@@ -163,16 +163,22 @@ mac下brew安装需要拷贝到`/usr/local/etc`目录下。
   brew install polipo
   ```
 2. 修改`/usr/local/opt/polipo/homebrew.mxcl.polipo.plist`文件，添加一些启动参数，具体参照>> [homebrew.mxcl.polipo.plist](https://github.com/MofeLee/how-to-fxxk-gfw/blob/master/homebrew.mxcl.polipo.plist)
-2. 配置开机自动启动
+3. 配置开机自动启动
 
   ```bash
   ln -sfv /usr/local/opt/polipo/*.plist ~/Library/LaunchAgents
   ```
-3. 立即启动polipo
+4. 立即启动polipo
 
   ```bash
   launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
   ```
+5. 测试代理是否成功
+  ```bash
+  export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123
+  curl google.com
+  ```
+  
 
 
 **alias 一些常用命令**
@@ -181,11 +187,11 @@ mac下brew安装需要拷贝到`/usr/local/etc`目录下。
 alias hp='export http_proxy=http://127.0.0.1:8123 https_proxy=http://127.0.0.1:8123'
 alias nhp='unset http_proxy https_proxy'
 
-# 命令行下强制使用代理服务器
+# 命令行下
 alias pxy=proxychains4
-#   完全代理zsh
+# 完全代理zsh
 alias pz='proxychains4 -q zsh'
-#   代理单个进程
+# 代理单个进程(推荐)
 alias x='proxychains4 -q '
 alias xni='proxychains4 -q npm install '
 ```
