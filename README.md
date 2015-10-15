@@ -163,7 +163,7 @@ Chrome下使用SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官�
 3. 编译安装(需要安装xcode)
   ```bash
    # needs a working C compiler, preferably gcc
-    ./configure --prefix=/usr --sysconfdir=/etc
+    ./configure
     make
     [optional] sudo make install
     [optional] sudo make install-config (installs proxychains.conf)
