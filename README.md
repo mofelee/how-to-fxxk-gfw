@@ -1,4 +1,12 @@
 # 如何愉快的翻墙
+
+
+**mac升级新版EI Capitan注意下**，proxychain4 在新版系统可能会有些小问题，详见https://github.com/rofl0r/proxychains-ng/issues/78
+
+临时可以在Recovery mode 的终端下运行`csrutil disable`
+
+-----------------
+
 临时给大家练手的服务器
 ```
 服务器IP:  108.61.247.109
