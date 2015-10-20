@@ -3,7 +3,7 @@
 
 **mac升级新版EI Capitan注意下**，proxychain4 在新版系统可能会有些小问题，详见https://github.com/rofl0r/proxychains-ng/issues/78
 
-临时可以在Recovery mode 的终端下运行`csrutil disable`
+可以将proxychains4文件从bin里拷贝到`~/bin`里（用户文件夹下的bin，然后注册`PATH`或者`alias`）
 
 -----------------
 
