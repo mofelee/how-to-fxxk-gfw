@@ -25,6 +25,7 @@
   2. [浏览器翻墙](#浏览器使用)
   3. [linux或mac命令行下使用](#linux或mac终端下使用--proxychains4强制让进程使用代理服务器访问网络)
   4. [windows下命令行下使用](#windows下命令行下使用--proxifier)
+  5. [手机端翻墙](#手机端翻墙)
 4. [代理服务器的加速优化](#加速优化)
 5. [其他翻墙方法总结](#其他翻墙方法总结)
 
@@ -246,6 +247,13 @@ alias xni='proxychains4 -q npm install '
 #### windows下命令行下使用 >> [proxifier](https://www.proxifier.com/)
 具体使用可以搜索google或者baidu。
 
+
+#### 手机端翻墙
+
+推荐使用surge配合shadowsocks加国内中转代理（用于把shadowsocks协议转换成socks5代理）翻墙
+
+或者使用[Hosts-for-Surge](https://github.com/ifyour/Hosts-for-Surge)，通过一些未被gfw封锁的ip进行翻墙
+
 ## 加速优化
 
 锐速提供免费加速20M宽带，实测访问youtube速度的确会快很多
@@ -254,6 +262,7 @@ http://www.serverspeeder.com/
 
 ## 其他翻墙方法总结
 
+- HOSTS翻墙：比较简单，但是只能访问限定的某些网址；
 - DNS翻墙：最简单，推荐电脑没有重要资料，或者iPad或者iPhone临时翻墙用，有比较严重的安全隐患；
 - 翻墙浏览器：也简单，不过安全隐患也很严重，比如百度浏览器（没用过，用windows的可以尝试下）；
 - 自由门(极其不推荐)：上古时期的翻墙方法，有些安装包被人绑了木马，并且只能在windows下使用；
