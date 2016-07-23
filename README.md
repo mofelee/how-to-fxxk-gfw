@@ -3,7 +3,7 @@
 
 **mac升级新版EI Capitan注意下**，proxychain4 在新版系统可能会有些小问题，详见https://github.com/rofl0r/proxychains-ng/issues/78
 
-可以将proxychains4文件从bin里拷贝到`~/bin`里（用户文件夹下的bin，然后注册`PATH`或者`alias`）
+在[恢复模式](https://support.apple.com/en-us/HT201314)下运行 `csrutil enable --without debug`
 
 -----------------
 
@@ -137,7 +137,7 @@ Chrome下使用SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官�
 1. 打开SwitchOmega选项
 2. 打开导入导出界面，在线恢复地址设置为：
  
-`https://raw.githubusercontent.com/MofeLee/how-to-fxxk-gfw/master/OmegaBackup-mofe.bak?token=AE1aYvbXtOiP2Zgjm5jfOStwEIatkHyJks5WDOAQwA%3D%3D`
+`https://raw.githubusercontent.com/MofeLee/how-to-fxxk-gfw/master/OmegaBackup-mofe.bak`
 
 其他浏览器也有相应工具，不过我目前只用Chrome。
 
