@@ -131,7 +131,7 @@ https://github.com/shadowsocks/shadowsocks-iOS/releases
 
 #### 浏览器使用
 
-Chrome下使用SwitchyOmega,推荐先找个临时翻墙服务器，从Chrome官方扩展中心安装，
+Chrome下使用[SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif),推荐先找个临时翻墙服务器，从Chrome官方扩展中心安装，
 
 **代理配置**：
 
