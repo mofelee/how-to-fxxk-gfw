@@ -261,4 +261,4 @@ http://www.serverspeeder.com/
 - vpn翻墙：购买或搭建vpn服务器，有可能被gfw屏蔽流量；
 - Lantern：据说挺不错的翻墙工具，只能用来浏览网页。
 
-## 如有疑问可以发issue，有必要讲的更清楚的信息我会及时更新到repo上~点右上角的watch可以收到更新~
+## 如有疑问可以发issue，有必要讲的更清楚的信息我会及时更新到repo上~ 点右上角的watch可以收到更新~
