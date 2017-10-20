@@ -116,11 +116,13 @@ chmod +x shadowsocks-libev-debian.sh
 
 #### 手动安装（喜欢折腾可以参考下面的链接）
 
-shadowsocks最后一个release还可以访问
-https://github.com/shadowsocks/shadowsocks/tree/7c08101ce8a673fafb22477e8ad720aa57114a1f
+shadowsocks 源代码可以通过切换分支的方式访问:
 
-官方repo的wiki已经不能访问，这是fork别人保存下来的wiki，手动安装或者优化可以参考
-https://github.com/MofeLee/shadowsocks-wiki
+https://github.com/shadowsocks/shadowsocks/tree/master
+
+wiki:
+
+https://github.com/shadowsocks/shadowsocks/wiki
 
 ## 使用
 
