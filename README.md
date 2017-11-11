@@ -193,6 +193,8 @@ mac下brew安装需要拷贝到`/usr/local/etc`目录下。
 
 **映射为http代理**
 
+注：ShadowsocksX-NG 已经映射过http代理，无需polipo
+
 1. 安装polipo
 
   ```bash 
