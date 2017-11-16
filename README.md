@@ -125,7 +125,7 @@ https://github.com/shadowsocks/shadowsocks/wiki
 
 #### OSX下的shadowsocks客户端
 
-OSX客户端地址(可以在teambition上的"文件库>程序"里找到，文件名是ShadowsocksX-2.6.3.dmg)：
+OSX客户端地址：
 [shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS/releases)
 或
 [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
